@@ -1,6 +1,6 @@
 package Unidad1;
 
-public class pruebas {
+public class NumMayor2 {
     public static void main(String[] args) {
         int numero1 = 3;
         int numero2 = 5;
