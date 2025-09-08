@@ -11,6 +11,7 @@ public class Menu {
         System.out.println("3. Multiplicar");
         System.out.println("4. Dividir");
         int numMenu= scanner.nextInt();
+        scanner.close();
 
         System.out.print("Ingrese primer numero : ");
         int num1= scanner.nextInt();
