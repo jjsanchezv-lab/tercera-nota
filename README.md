@@ -1,18 +1,32 @@
-## Getting Started
+# Project Title
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# 🛒 Supermercado - Sistema de Inventario
 
-## Folder Structure
+## 📌 Descripción
+Este proyecto es un programa en *Java* diseñado para ayudar a pequeños negocios o supermercados a llevar un *control básico de su inventario*.  
+El sistema permite registrar productos con su nombre, cantidad y precio, calcular automáticamente el valor total de cada producto en stock y generar un reporte final con el inventario completo.  
 
-The workspace contains two folders by default, where:
+Además, incluye la opción de *actualizar las cantidades* de los productos en cualquier momento, lo que lo convierte en una herramienta práctica y flexible para la gestión de inventarios.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Funcionalidades principales
+- ✅ Registro de productos (nombre, cantidad y precio).  
+- ✅ Cálculo automático del valor total de cada producto.  
+- ✅ Reporte final con toda la información del inventario.  
+- ✅ Actualización de cantidades sin necesidad de reiniciar el programa.  
+- ✅ Cálculo en tiempo real del *valor total del inventario*.  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🛠 Tecnologías utilizadas
+- *Lenguaje:* Java  
+- *Librerías:* Scanner (para la entrada de datos por consola)  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## ▶ Cómo ejecutar el programa
+1. Asegúrate de tener instalado *Java* en tu computador.  
+2. Compila el archivo con el siguiente comando en la terminal:
+   ```bash
+   javac Supermercado.javaA brief description of what this project does and who it's for
